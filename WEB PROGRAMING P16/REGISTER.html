@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+body {
+    background-image: url(background.jpg);
+    background-size: 100% 100%;
+}
+#taskbar   {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    animation: slide-up 0.5s ease;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Gaya tautan di dalam taskbar */
+#taskbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#taskbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#taskbar ul li:last-child {
+    margin-right: 0;
+}
+
+#taskbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+fieldset {
+    background-color: thistle;
+    font-style: italic;
+    font-size: larger;
+    padding: 0px;
+    width: 300px;
+    height: 400px;
+    border: 2px lightcoral;
+}
+        </style>
+    </head>
+    <body>
+        <div id="taskbar">
+            <nav>
+                <a href="BERANDA.html"><button>BERANDA</button></a>
+            </nav>
+        </div>
+<br>
+<br>
+<br>
+        <img src="LogoUdayana.png">
+        <p style="font-size: large;"><b>SELAMAT DATANG DI WEB RESMI UNIVERSITAS UDAYANA</b></p>
+<br>
+<center>
+    <fieldset>
+    <h1>REGISTER</h1>
+            <form action="REGISTRASI.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="Address">Address:</label>
+                <input type="Address" id="Address" name="Address" required><br><br>
+                <label>Gender:</label>
+                <input type="radio" name="jenis-kelamin" value="MAN"><label>MAN</label><br><br>
+                <input type="radio" name="jenis-kelamin" value="WOMAN"><label>WOMAN</label><br><br>
+<br>
+                <label for="Religion">Religion:</label>
+                <select id="ReligionSelect">
+                    <option value="MUSLIM">ISLAM</option>
+                    <option value="KRTP">KRISTEN PROTESTAN</option>
+                    <option value="KRTK">KRISTEN KATHOLIK</option>
+                    <option value="HND">HINDU</option>
+                    <option value="BDH">BUDHA</option>
+                    <option value="KGC">KONGUCHU</option>
+                </select>
+<br>
+                <input type="submit" value="Register">
+            </form>
+        </fieldset>
+</center>
+</body>
+</html>

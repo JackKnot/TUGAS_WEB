@@ -1,0 +1,31 @@
+#taskbar   {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Gaya tautan di dalam taskbar */
+#taskbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#taskbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#taskbar ul li:last-child {
+    margin-right: 0;
+}
+
+#taskbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}

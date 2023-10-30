@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title> INFORMASI UNUD </title>
+    <style>
+        #taskbar   {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            animation: slide-up 0.5s ease;
+        }
+        
+        /* Gaya tautan di dalam taskbar */
+        #taskbar ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        #taskbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        #taskbar ul li:last-child {
+            margin-right: 0;
+        }
+        
+        #taskbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        @keyframes slide-up {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .option {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            background-color: #eee;
+        }
+
+        .option:hover {
+            background-color: #ddd;
+        }
+
+        .description {
+            display: none;
+            padding: 10px;
+        }
+    </style> 
+     <script>
+        // JavaScript untuk menampilkan deskripsi opsi saat opsi diklik
+        function tampilkanDeskripsi(optionId) {
+            var description = document.getElementById("description_" + optionId);
+            if (description.style.display === "none") {
+                description.style.display = "block";
+            } else {
+                description.style.display = "none";
+            }
+        }
+    </script>       
+    </head>
+    <body>
+        <div id="taskbar">
+            <ul>
+                <li><a href="BERANDA.html"><button>BERANDA</button></a></li>
+                <li><a href="REGISTER.html"><button>REGISTER</button></a></li> 
+                <li><a href="mahasiswa.html"><button>PRESTASI</button></a></li>
+            </ul>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<img src="LogoUdayana.png" width="150" height="150" >
+<br>
+<br>
+<div class="option" onclick="tampilkanDeskripsi(1)"><b>SEJARAH</b></div>
+    <div class="description" id="description_1">Universitas Udayana didirikan pada tahun 1962 dan dinamai setelah seorang pahlawan nasional Indonesia, 
+    Dewa Agung Gusti Ngurah Made Agung. Universitas ini awalnya dimulai dengan tiga fakultas, yaitu Fakultas Sastra, 
+    Fakultas Hukum, dan Fakultas Kedokteran.</div>
+    
+    <div class="option" onclick="tampilkanDeskripsi(2)"><b>PROGRAM STUDI</b></div>
+    <div class="description" id="description_2">Universitas Udayana menawarkan beragam program studi di berbagai bidang, 
+    termasuk ilmu sosial, sains, teknik, kedokteran, hukum, seni, dan budaya Bali. 
+    Beberapa program studi unggulan di universitas ini termasuk Ilmu Hukum, Kedokteran, dan Sastra.</div>
+    
+    <div class="option" onclick="tampilkanDeskripsi(3)"><b>LOKASI</b></div>
+    <div class="description" id="description_3"> Kampus utama Universitas Udayana terletak di Denpasar, ibu kota Provinsi Bali. 
+    Universitas ini juga memiliki beberapa fakultas dan unit kerja di daerah lain di Bali, 
+    seperti Jimbaran, Singaraja, dan Karangasem.</div>
+
+    <div class="option" onclick="tampilkanDeskripsi(4)"><b>RISET DAN KOLABORASI</b></div>
+    <div class="description" id="description_4">Universitas Udayana aktif dalam penelitian dan seringkali berkolaborasi dengan 
+    lembaga-lembaga penelitian nasional dan internasional. Pusat-pusat penelitian di universitas ini terlibat dalam berbagai proyek penelitian.</div>
+
+    <div class="option" onclick="tampilkanDeskripsi(5)"><b>HUBUNGAN INTERNASIONAL</b></div>
+    <div class="description" id="description_5"> Universitas Udayana memiliki hubungan internasional yang kuat dengan banyak universitas dan 
+    lembaga pendidikan di berbagai negara. Ini memungkinkan pertukaran mahasiswa, staf pengajar, dan kolaborasi penelitian.</div>
+
+    <div class="option" onclick="tampilkanDeskripsi(6)"><b>PRESTASI</b></div>
+    <div class="description" id="description_6">Universitas Udayana memiliki sejarah prestasi yang kuat dalam berbagai bidang, termasuk olahraga, 
+    seni, dan akademik. Mahasiswa dan alumni universitas ini sering kali berpartisipasi dalam kompetisi nasional dan internasional.</div>
+
+    <div class="option" onclick="tampilkanDeskripsi(7)"><b>BAHASA INSTRUKSI</b></div>
+    <div class="description" id="description_7"> Bahasa instruksi utama di Universitas Udayana adalah Bahasa Indonesia, 
+    meskipun dalam beberapa program studi tertentu, terutama yang terkait dengan bidang pariwisata, Bahasa Inggris juga digunakan.</div>
+<br>
+<br>
+    </body>
+</html>

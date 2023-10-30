@@ -1,0 +1,36 @@
+Jurusan Ilmu Komputer adalah salah satu jurusan yang sangat diminati di perguruan tinggi karena berkaitan dengan teknologi informasi dan komputasi. 
+
+Berikut adalah beberapa poin penting tentang jurusan Ilmu Komputer:
+
+
+Bidang Studi: Jurusan Ilmu Komputer mencakup berbagai bidang studi, termasuk pemrograman komputer, algoritma, struktur data, pemrosesan gambar,
+ kecerdasan buatan, jaringan komputer, keamanan siber, pengembangan perangkat lunak, dan banyak lagi.
+
+Pemrograman: Pemrograman adalah inti dari ilmu komputer. Mahasiswa belajar berbagai bahasa pemrograman seperti Java, C++, Python,
+ dan sebagainya untuk mengembangkan perangkat lunak dan aplikasi.
+
+Matematika: Ilmu Komputer melibatkan aspek matematis, terutama dalam perancangan algoritma dan analisis kompleksitas komputasi.
+
+Keamanan Siber: Dalam dunia yang semakin terhubung, keamanan siber sangat penting. Jurusan Ilmu Komputer memungkinkan mahasiswa 
+untuk memahami dan memitigasi ancaman keamanan cyber.
+
+Pengembangan Perangkat Lunak: Mahasiswa belajar tentang siklus pengembangan perangkat lunak, termasuk analisis kebutuhan, 
+desain, implementasi, pengujian, dan pemeliharaan.
+
+Kecerdasan Buatan: Jurusan Ilmu Komputer juga mencakup pengembangan kecerdasan buatan (AI) dan pembelajaran mesin.
+ Ini melibatkan pembuatan algoritma yang memungkinkan komputer untuk belajar dan mengambil keputusan.
+
+Jaringan Komputer: Mahasiswa belajar tentang konsep jaringan komputer, protokol komunikasi, 
+administrasi jaringan, dan manajemen sumber daya jaringan.
+
+Pekerjaan: Lulusan jurusan Ilmu Komputer memiliki peluang karir yang luas. Mereka dapat bekerja sebagai pengembang perangkat lunak,
+ analis keamanan siber, administrator jaringan, insinyur perangkat keras, ilmuwan data, dan banyak lagi.
+
+Inovasi Teknologi: Ilmu Komputer adalah bidang yang terus berkembang, dan mahasiswa sering terlibat dalam penelitian dan inovasi teknologi. 
+Mereka dapat mengembangkan produk dan layanan yang akan membentuk masa depan teknologi informasi.
+
+Peluang Belajar Mandiri: Selain dari pembelajaran dalam kelas, jurusan Ilmu Komputer mendorong mahasiswa untuk belajar mandiri,
+ mengejar proyek-proyek pribadi, dan terlibat dalam komunitas pengembang perangkat lunak.
+
+Jurusan Ilmu Komputer adalah pilihan yang sangat relevan di era digital dan teknologi informasi.
+ Ini memberikan dasar yang kuat untuk berkarir dalam berbagai peran teknologi dan dapat membuka pintu bagi inovasi di dunia teknologi.
